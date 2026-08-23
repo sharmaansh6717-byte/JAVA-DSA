@@ -4,7 +4,7 @@ class Array_01 {
         for(int i = 0 ; i < nums.length ; i++)
         {
             int num = nums[i];
-            int digit = countDigits(num);
+            int digit = countDigits(num); //function calling 
             if(digit % 2 == 0)
             {
                 evencounter++;
